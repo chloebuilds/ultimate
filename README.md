@@ -23,16 +23,7 @@ When querying 'Oceania':
 {
 	"regionTotalPopulation": 43119432,
 	"highestPopulationCountry": {
-		"name": {
-			"common": "Australia",
-			"official": "Commonwealth of Australia",
-			"nativeName": {
-				"eng": {
-					"official": "Commonwealth of Australia",
-					"common": "Australia"
-				}
-			}
-		},
+		"countryName": "Australia",
 		"population": 25687041
 	}
 }
@@ -43,16 +34,7 @@ When querying 'Oceania':
 {
 	"regionTotalPopulation": 746934072,
 	"highestPopulationCountry": {
-		"name": {
-			"common": "Russia",
-			"official": "Russian Federation",
-			"nativeName": {
-				"rus": {
-					"official": "Российская Федерация",
-					"common": "Россия"
-				}
-			}
-		},
+		"countryName": "Russia",
 		"population": 144104080
 	}
 }
