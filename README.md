@@ -9,15 +9,16 @@ A node.js backend that contains a GET endpoint (plus a little bonus). The endpoi
 - Jest
 - Insomnia
 
+### Start the server
+To run the server please run `npm run start`. The server is successfully running when you see the message: `🤖 Server running on port 4000`. Now you can make requests - I used Insomnia but you could also use your browser. Please enter your URL's like the example below follwoing the patter of `http://localhost:4000/{region}. The regions you can choose from are: Africa, America, Asia, Europe, Oceania. 
+
 ### Query
 When querying 'Oceania':
-`http://localhost:4000/oceania `
-Or to query 'Europe':
-`http://localhost:4000/europe `
+`http://localhost:4000/oceania ` or 'Europe': `http://localhost:4000/europe `
 
 ### Response
-``` json
 // OCEANIA
+``` json
 {
 	"regionTotalPopulation": 43119432,
 	"highestPopulationCountry": {
@@ -35,8 +36,9 @@ Or to query 'Europe':
 	}
 }
 ```
-```json
+
 // EUROPE
+```json
 {
 	"regionTotalPopulation": 746934072,
 	"highestPopulationCountry": {
