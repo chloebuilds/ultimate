@@ -12,12 +12,14 @@ export default async function ultimateResponse(req, res) {
 
     // get the data based on the region query
     const { data } = await axios.get(`${API}/region/${regionQuery}`)
-    
-    // map over the data to return the name and population to store in countriesArray
-    countriesArray = data.map(({ name, population }) => ({
-      name,
-      population
-    }))
+
+    countriesArray = data.map(country => {
+      console.log('country inside map ->', country)
+      return {
+        countryName : country.name.common,
+        population : country.population
+      }
+    })
     
     // get the total population of all the country populations
     const totalPopulation = countriesArray.reduce(function (acc, obj) {
