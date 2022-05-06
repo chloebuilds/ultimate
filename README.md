@@ -11,16 +11,12 @@ A node.js backend that contains a GET endpoint (plus a little bonus). The endpoi
 
 ### Query
 When querying 'Oceania':
-```js
-  http://localhost:4000/oceania
-```
+`http://localhost:4000/oceania `
 Or to query 'Europe':
-```
-http://localhost:4000/europe
-```
+`http://localhost:4000/europe `
 
 ### Response
-```
+``` json
 // OCEANIA
 {
 	"regionTotalPopulation": 43119432,
@@ -39,7 +35,7 @@ http://localhost:4000/europe
 	}
 }
 ```
-```js
+```json
 // EUROPE
 {
 	"regionTotalPopulation": 746934072,
