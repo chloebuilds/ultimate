@@ -14,8 +14,8 @@
     "mocha": "^10.0.0"
   },
   "scripts": {
-    "dev": "npx nodemon index.js",
-    "start": "npx nodemon index.js",
+    "dev": "npx nodemon server.js",
+    "start": "npx nodemon server.js",
     "test": "jest"
   },
   "devDependencies": {
