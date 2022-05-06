@@ -14,7 +14,6 @@ export default async function ultimateResponse(req, res) {
     const { data } = await axios.get(`${API}/region/${regionQuery}`)
 
     countriesArray = data.map(country => {
-      console.log('country inside map ->', country)
       return {
         countryName : country.name.common,
         population : country.population
